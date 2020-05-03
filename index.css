@@ -1,0 +1,25 @@
+  #uml img{
+    max-width: 100%;
+  }
+
+  #interfaces img{
+    max-width: 100%;
+  }
+  
+  #header img {
+    width: 140px;
+  }  
+  
+  
+  #requerimientos {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  #footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  }
+  
+  #footer a {
+    color: white;
+  }

@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Sistema Salsarte</title>
+  </head></head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo_tachella_min.png" alt="Tachella logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#perfil">Perfil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#requerimientos">Requerimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#uml">UML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interfaces">Interfaces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cliente">Cliente</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /Header -->
+
+    <!-- Perfil -->
+    <section id="perfil" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 offset-1 col-md-6 offset-md-0 col-lg-4 mb-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/images/perfil.jpg" alt="Foto de Perfil">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge badge-warning">Desarrollador Java</span>
+                </div>
+                <h5 class="card-title">Pablo Tachella</h5>
+                <h6>Edad: 25 años.</h6>
+                <h6>Nacionalidad: Argentina</h6>
+                <h6>Tel: 1122674560</h6>
+                <h6>Email: pablotachella95@gmail.com</h6>
+                <h6>LinkedIn: Pablo Tachella</h6>
+               
+              </div>
+            </div>
+          </div>
+            <div class="col-10 offset-1 col-md-6 offset-md-0 col-lg-8 mb-4">
+              <h2>Formación académica y conocimientos</h2>
+              <h6 class="mb-0 mt-4 text-muted">2020 (En curso)</h6>
+              <h5 class="mt-0">-Hibernate y Java Spring - Testing con JUnit</h5>
+              <h6 class="">Estructuración de apps con Spring Boot, Spring Data JPA y Spring Security.</h6>
+              <h6 class="">Test-Driven Development, Test de integración con DB, Test a partir de Requerimientos.</h6>
+              <h6 class="mb-0 mt-4 text-muted">2019-2020</h6>
+              <h5 class="mt-0">-JavaScript – HTML/HTML5 - CSS/CSS3 Responsive</h5>
+              <h6 class="">Sitios web interactivos, MySQL, Responsive Design.</h6>
+              <h6 class="mb-0 mt-4 text-muted">2018-2020</h6>
+              <h5 class="mt-0">-Java</h5>
+              <h6 class="">Gradle, POO, Paradigma funcional, Persistencia de datos (MySQL, consumo de APIs rest), Dessarrollo de programas de escritorio, Programación modular con interfaces, Diseño de interfaces.</h6>
+              <h6 class="mb-0 mt-4 text-muted">2018-2019</h6>
+              <h5 class="mt-0">-Android Studio (Java & Kotlin)</h5>
+              <h6 class="">Diseño de interfaces, Arquitectura MVP, Base de Datos SQLite, Firebase</h6>
+            </div>  
+      </div>
+    </section>
+    <!-- /Perfil -->
+
+    <!-- Requerimientos -->
+    <section id="requerimientos" class="pt-4 pb-4">
+      <div class="container">
+        <div>
+          <h2>Último proyecto: Sistema Salsarte (Privado)</h2>
+        </div>
+        <div class="row pt-4">
+          <h4>Análisis de Requerimientos</h4>
+        </div>
+        <div>
+          <h4>Desarrollar un programa de escritorio que cumpla con las siguientes características:</h4>
+        </div>
+        <div>
+          <h6>-Conexión a una base de datos remota donde se almacenarán todos los registros.</h6>
+        </div>
+        <div>
+          <h6>-Registrar: clientes, empleados, fleteros, productos y servicios, eventos vendidos, movimientos de caja.</h6>
+        </div>
+        <div>
+          <h6>-Generación de contrato de locación en archivos PDF.</h6>
+        </div>
+        <div>
+          <h6>-Generación de respaldos de seguridad periodicamente.</h6>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-5  pt-2">
+            <h5 class="pt-2">Clientes:</h5>
+            <div class="offset-1">
+              <h6>Registro de datos.</h6>
+              <h6>Visualización en una tabla de todos los clientes registrados.</h6>
+              <h6>Acceso a todos los eventos que están relacionados con cada cliente.</h6>
+            </div>
+            <h5 class="pt-2">Empleados:</h5>
+            <div class="offset-1">
+              <h6>Registro de datos.</h6>
+              <h6>Visualización en una tabla de todos los empleados registrados.</h6>
+              <h6>Registro de cargos que pueden ocupar en cada evento con sueldo correspondiente</h6>
+              <h6>Cálculo automático de Saldo pendiente y acceso a Eventos relacionados a ese saldo.</h6>
+              <h6>Registrar pagos con actualización de saldo automática</h6>
+            </div>
+            <h5 class="pt-2">Fleteros:</h5>
+            <div class="offset-1">
+              <h6>Registro de datos.</h6>
+              <h6>Visualización en una tabla de todos los fleteros registrados.</h6>
+              <h6>Registro de categorias con sus respectivas formas de facturación y sueldos correspondientes</h6>
+              <h6>Cálculo automático de Saldo pendiente y acceso a Eventos relacionados a ese saldo.</h6>
+              <h6>Registrar pagos con actualización de saldo automática</h6>
+            </div>
+            <h5 class="pt-2">Productos y servicios:</h5>
+            <div class="offset-1">
+              <h6>Registro de los diferentes productos y servicios que brinda el catering con sus valores correspondientes.</h6>
+              <h6>Visualización en tablas de todos los productos y servicios registrados.</h6>
+            </div>
+          </div>
+          <div class="col-12 offset-md-1 col-md-6 pt-2 pb-4">
+            <h5 class="pt-2">Eventos:</h5>
+            <div class="offset-1">
+              <h6>Registro de venta de eventos con una relación con cada elemento que lo componga o interactúe con él.</h6>
+              <h6>Cálculo automático de costos, precios, descuentos y recargos al momento de estar registrando.</h6>
+              <h6>En caso de actualización de valores de servicios o sueldos los eventos ya registrados no deberán ser afectados por tales cambios.</h6>
+              <h6>Diseñar sistemas de seguridad que eviten fraude por parte de los usuarios del programa, tales como: modificaciones falsas en los ingresos generados por los eventos, alteración de eventos ya facturados, etc.</h6>
+              <h6>Visualización en una tabla de todos los eventos registrados con sus características más relevantes.</h6>
+              <h6>Posibilidad de filtrar los eventos por fecha y estado de cobro.</h6>
+            </div>
+            <h5 class="pt-2">Caja:</h5>
+            <div class="offset-1">
+              <h6>Registro de movimientos de caja con descripción.</h6>
+              <h6>Distinción de movimientos inusuales.</h6>
+              <h6>Visualización en tablas de todos los movimientos registrados.</h6>
+              <h6>Posibilidad de filtrado por fecha y tipo de movimiento.</h6>
+              <h6>Saldo actual actualizado con cada movimiento de caja.</h6>
+            </div>
+            <h5 class="pt-2">Contrato (PDF):</h5>
+            <div class="offset-1">
+              <h6>Generación de Contratos de locación Por cada servicio contratado.</h6>
+              <h6>El contrato deberá generarse de forma inteligente solo contemplando los serviciós, productos y elementos involucrados en el evento en cuestión.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Requerimientos -->
+
+    <!-- UML -->
+    <section id="uml" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+         <div class="col-12 offset-1">
+          <h2>UML (Primer acercamiento)</h2>
+         </div>
+         <div class="row">
+           <div class="col-12">
+             <img src="assets/images/uml.png" alt="Diagrama UML">
+           </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- /UML -->
+
+    <!-- Interfaces -->
+    <section id="interfaces" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+         <div class="col-12 offset-1">
+          <h2>Interfaces</h2>
+         </div>
+         <div class="col-12 offset-1">
+          <h6 class="text-muted">Creación propia de íconos y componentes gráficos.</h6>
+         </div>
+         <div class="row">
+           <div class="col-12 offset-md-1 col-md-10">
+             <img src="assets/images/HomeNaranja.png" alt="Diagrama UML">
+           </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Interfaces -->
+
+    <!-- Cliente -->
+    <section id="cliente" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 offset-1">
+            <h2>Cliente</h2>
+          </div>
+        </div>
+         <div class="row">
+           <div class="col-12 offset-1">
+             <p>Javier Estrugo, fundador y dueño de la empresa
+              <a href="https://www.salsarte.com.ar">Salsarte Pizza-Party</a>
+            </p>
+         </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Cliente -->
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg">
+            <a href="https://www.linkedin.com/in/pablo-tachella-1ba289195/">LinkedIn</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="https://github.com/tache95">GitHub</a>
+          </div>
+          <div class="col-12 col-lg">
+            <a href="https://es-la.facebook.com/pablon.tachella.95">Facebook</a>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
